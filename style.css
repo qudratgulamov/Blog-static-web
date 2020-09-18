@@ -1,0 +1,104 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
+    color: #66FCF1;
+}
+a {
+    color: #66FCF1 !important;
+}
+
+input {
+    
+}
+
+.navbar {
+    background-color: #0B0C10;
+    
+}
+
+.navbar-brand, .footer-logo {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.btn-main {
+    background-color: #66FCF1 !important;
+    font-size: 18px !important;
+    border-radius: 5px !important;
+    color: #0B0C10 !important;
+    border: 2px solid green !important;
+}
+.hero {
+    background-color: #1F2833;
+}
+.hero-post-badges {
+    position: absolute;
+    top: 20px;
+    right:20px;
+}
+
+.hero-post-badges > a {
+    display: block;
+    background-color: #0B0C10;
+    color: #66FCF1;
+    font-size: 0.9rem;
+}
+.hero-post-content {
+    position: absolute;
+    bottom: 20px;
+    color: #66FCF1;
+
+}
+.hero-post-content img {
+    border: 2px solid #66FCF1;
+}
+img {
+    filter: grayscale(50%) brightness(0.8);
+}
+
+img.rounded-circle {
+    filter: none;
+    border: 2px solid #66FCF1;
+}
+
+.main-blog-posts {
+    background-color: black;
+    color: #C5C6C7;
+}
+
+.blog-post {
+    background-color: #1F2833;
+}
+
+.blog-post  .col-sm-8 {
+    border-left: 3px solid #C5C6C7;
+}
+.blog-post p {
+    font-size: 0.9rem;
+}
+.badge > a {
+    margin-left: 0.5rem;
+    
+    padding: 0.5rem;
+    background-color: #66FCF1;
+    color: black !important;
+}
+.badge {
+    margin-top: 1rem;
+}
+.social-links {
+    /* background-color: #66FCF1; */
+    color: black !important;
+    font-size: 1.1rem;
+}
+
+.aside-heading {
+    border-left: 3px solid #66FCF1;
+}
+
+.footer {
+    background-color: #1F2833;
+    color: #C5C6C7;
+}
